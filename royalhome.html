@@ -1,0 +1,83 @@
+<html>
+    <head>
+        <title>Royal</title>
+    </head>
+    <link rel="stylesheet" type="text/css" href="royalhomecss.css">
+    <body>
+        <header class="header">
+            <div class="container">
+                <div class="row align-items-center justify-content-between">
+                    <div class="logo">
+                        <img src="New Project (6).png" class="icon">
+                    </div>
+                    <input type="checkbox" id="nav-check">
+                    <label for="nav-check" class="nav-toggler">
+                    <span></span>
+                    </label>
+                    <nav class="nav">
+                        <ul>
+                            <li><a href ="index.html">HOME</a></li>
+                            <li><a href ="1.html">HISTORY</a></li>
+                            <li><a href ="ABOUT US.html">ABOUT US</a></li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </header>
+        <footer id="number-footer">
+            <ul>
+                <li id="callus">Call us @ +91 7407361834</li>
+                <li>
+                    <div>
+                        <input href="tel:7407361834" type="submit" name="" value="CLICK TO CALL">
+                    </div>
+                </li>
+            </ul>
+        </footer>
+        <footer>
+            <div class="div1">
+                <P>
+                    Interior design is the art and science of enhancing the 
+                    interior of a building to achieve a healthier and more aesthetically
+                    pleasing environment for the people using the space. An interior designer
+                    is someone who plans, researches, coordinates, and manages such 
+                    enhancement projects.
+                </P>
+            </div>
+            <ul>
+                <li>
+                    <div class="div2">
+                        <p>
+                            Interior design is a multifaceted profession that includes 
+                            conceptual development, space planning, site inspections, programming, research, 
+                            communicating with the stakeholders of a project, construction management, and 
+                            execution of the design.
+                        </p>
+                    </div>
+                </li>
+                <li>
+                    <div class="div3">
+                        <p>
+                            The profession of interior design has been a consequence of the development 
+                            of society and the complex 
+                            architecture that has resulted from the development of industrial processes.
+                        </p>
+                    </div>
+                </li>
+            </ul>
+            <div id="googleMap" style="width:100%;height:400px;"></div>
+
+            <script>
+            function myMap() {
+            var mapProp= {
+            center:new google.maps.LatLng(51.508742,-0.120850),
+            zoom:5,
+            };
+            var map = new google.maps.Map(document.getElementById("googleMap"),mapProp);
+            }
+            </script>
+
+            <script src="https://maps.googleapis.com/maps/api/key=afeb21716f164eb6bc1f78ebfa87ed3e&callback=myMap"></script>
+        </footer>
+    </body>
+</html>
