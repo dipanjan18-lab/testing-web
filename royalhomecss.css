@@ -63,7 +63,7 @@ a{
     font-weight: bolder;
     list-style: none;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
 }
 
 #number-footer div{
