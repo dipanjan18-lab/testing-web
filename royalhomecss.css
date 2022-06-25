@@ -64,6 +64,7 @@ a{
 }
 #callus{
     color: white;
+    font-size: 12px;
     font-family: 'Times New Roman', Times, serif;
 }
 #number-footer div a[type="submit"]
