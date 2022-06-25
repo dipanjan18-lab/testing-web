@@ -58,6 +58,13 @@ a{
     margin-left: auto;
     margin-right: auto;
 }
+.callul{
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bolder;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+}
 
 #number-footer div{
     text-align: center;
