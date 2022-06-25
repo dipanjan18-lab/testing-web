@@ -1,3 +1,8 @@
+.header{
+    background-color: black;
+    padding:0.2rem 0.1rem;
+    position: relative;
+}
 ul{
     font-family: 'Courier New', Courier, monospace;
     font-weight: bolder;
@@ -67,7 +72,6 @@ a{
     display: flex;
     justify-content: space-evenly;
 }
-
 #number-footer div{
     text-align: center;
 }
@@ -76,6 +80,13 @@ a{
     font-size: 12px;
     font-family: 'Times New Roman', Times, serif;
 }
+.callunderscore{
+    color: red;
+}
+
+
+
+
 #number-footer div a[type="submit"]
 {
     border: none;
@@ -115,6 +126,7 @@ a{
 .container{
     max-width: 1170px;
     margin: auto;
+    background-color: rgb(25, 129, 177);
 }
 .row{
     display: flex;
@@ -125,12 +137,6 @@ a{
 }
 .justify-content-between{
     justify-content: space-between;
-}
-
-.header{
-    background-color: var(--color-1);
-    padding:0.2rem 0.1rem;
-    position: relative;
 }
 .header .logo,
 .header .nav{
@@ -229,10 +235,32 @@ a{
     }
 }
 
-
-#map {
-    height: 400px;
-    /* The height is 400 pixels */
-    width: 100%;
-    /* The width is the width of the web page */
-  }
+h2{
+    color: white;
+    text-align: center;
+    padding-top: 30px;
+}
+.gmap {
+    align-items: center;
+    padding-bottom: 30px;
+    padding-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.copyright-div{
+    background: #000;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-right: 20px;
+    padding-left: 20px;
+}
+.copyright{
+    text-align: center;
+    margin-top: 10px;
+    font-size: 20px;
+    color: white;
+}
