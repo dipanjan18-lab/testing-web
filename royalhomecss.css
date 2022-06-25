@@ -85,7 +85,7 @@ a{
     height: 30px;
     background: #fb2525;
     color: #fff;
-    font-size: 8px;
+    font-size: 12px;
     border-radius: 5px;
 }
 #number-footer div a[type="submit"]:hover
