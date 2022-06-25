@@ -59,6 +59,8 @@ a{
     margin-right: auto;
 }
 .callul{
+    padding-left: 15px;
+    padding-right: 15px;
     font-family: 'Courier New', Courier, monospace;
     font-weight: bolder;
     list-style: none;
